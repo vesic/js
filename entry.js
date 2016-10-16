@@ -1,5 +1,6 @@
-function f() {
-  return true;
+function add(a=0, b=0) {
+  return a + b;
 }
 
-console.log(f())
+let ab = add(1, 2); // 3
+console.log(ab) // 3
