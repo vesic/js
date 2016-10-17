@@ -14,5 +14,9 @@ function div(a, b) {
   return a / b;
 }
 
+function ff() {
+  return '';
+}
+
 let ab = add(1, 2); // 3
 console.log(ab) // 3
