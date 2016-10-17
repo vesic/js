@@ -10,5 +10,9 @@ function multi(a, b) {
   return a * b;
 }
 
+function div(a, b) {
+  return a / b;
+}
+
 let ab = add(1, 2); // 3
 console.log(ab) // 3
